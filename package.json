@@ -6,7 +6,7 @@
   "scripts": {
     "watch-sass": "node-sass scss/main.scss css/style.css --watch",
     "compile-sass": "node-sass scss/main.scss css/style.css",
-    "concat-css": "concat -o scss/main.scss scss/header.scss scss/sectionHeader.scss",
+    "concat-sass": "concat -o scss/main.scss scss/header.scss scss/sectionHeader.scss",
     "prefix-css": "postcss --use autoprefixer -b 'last 5 versions' css/style.css -o css/style.prefix.css",
     "compress-css": "node-sass css/style.css css/styles.comp.css --output-style compressed",
     "build-css": "npm-run-all concat-css compile-sass prefix-css compress-css"

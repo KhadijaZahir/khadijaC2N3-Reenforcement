@@ -1,52 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
-    <!-- displays site properly based on user's device -->
-     <link rel="stylesheet" href="css/style.css">
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
 
-    <title>Project tracking intro component</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <title>Project tracking intro component</title>
+</head>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
-  </head>
-  <body>
-    <header>
+<body>
+  <div class="rect-grey"></div>
+  <header>
+    <div class="navbar">
       <img class="logoImg" src="images/logo.svg" alt="">
       <div class="dropdown">
         <input type="checkbox" id="checkbox_toggle">
         <label for="checkbox_toggle" class="dropdown__toggle"><img src="images/icon-hamburger.svg" alt="burger"></label>
         <label for="checkbox_toggle" class="dropdown__close"><img src="images//icon-close.svg" alt="burger"></label>
         <ul class="dropdown__list">
-            <li><a href="#">PRODUCT</a></li>
-            <li><a href="#">FEATURES</a></li>
-            <li><a href="#">PRICING</a></li>
-            <hr>
-            <li class="dropdown__list--grey"><a href="#">LOGIN</a></li>
+          <li><a href="#">PRODUCT</a></li>
+          <li><a href="#">FEATURES</a></li>
+          <li class="dropdown__list--margin"><a href="#">PRICING</a></li>
+          <li class="dropdown__list--grey"><a href="#">&#x2022</a></li>
+          <li class="dropdown__list--bordertop"><a href="#">LOGIN</a></li>
         </ul>
+      </div>
     </div>
-    </header>
-    <section>
-            
-    </section>
+    <div class="heading">
+      <div class="heading__bg"><img class="img" src="images/illustration-devices.svg" alt=""></div>
+      <div class="heading__text">
+            <div class="heading__text--suptitle"><span>NEW</span> MONOGRAPH DASHBOARD</div>
+           <h1 class="heading__text--title"><strong>POWERFUL INSIGHTS INTO YOUR TEAM</strong></h1>
+           <p class="heading__text--para">Project planning and time tracking for teams</p>
+           <div class="heading__text--subtitle"><button>SCHEDULE A DEMO</button>TO SEE A PREVIEW</div>
+     </div>
+  </div>
+  </header>
+
     <footer>
-      <p class="attribution">Coded by <a href="#">Your Name Here</a>.</p>
+      <p class="attribution">Coded by<a href="#"> khadija zahir</a>.</p>
     </footer>
-  </body>
+</body>
+
 </html>

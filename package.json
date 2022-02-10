@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/KhadijaZahir/khadijaC2N3-Reenforcement#readme",
   "devDependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   }
 }
